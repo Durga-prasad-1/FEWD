@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Home</title>
+</head>
+<body>
+    
+    <div >
+        <nav>
+            <a href="index.html" target="_parent">Home</a>
+            <a href="signup.html" target="_blank">Sign up</a>
+            <a href="login.html" target="_blank">Login</a>
+            <input type="text" id="search" placeholder="Search bar">
+            <button id="btn" type="submit">Search</button>
+                
+    </nav>
+    </div>
+    <script>
+        const btn = document.getElementById("btn");
+        const input = document.getElementById("search");
+        btn.addEventListener("click",()=>{
+            alert(input.value);
+        })
+    </script>
+</body>
+</html>
