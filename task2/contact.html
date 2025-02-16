@@ -4,15 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <style>
+        .div1 {
+        color: blue; /* Lower specificity */
+        }
+
+        #div1 {
+        color: red; /* Higher specificity */
+        }
+
+    </style>
 </head>
 <body>
-    <h1>Contact</h1>
+    <div class="div1" id="div1">This will match #div1</div>
+    <div class="div1">This breaks the ID uniqueness rule</div>
+    <input type="text" id="hh">
 
-    <p>Contact me on: </p>
-    <p>Gmail: xyz@gmail.com</p>
-    <p>Phone: +91 9876543210</p>
-
-    <h3>Social Media</h3>
-    
+    <script>
+        const d = document.getElementById("hh")
+        d.value = "slfs";
+    </script>
 </body>
+
 </html>
