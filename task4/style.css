@@ -1,0 +1,89 @@
+body {
+    min-height: 100vh;
+    max-width: 100vw;
+    background-color: #6cbaac;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Flex Container */
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Form Styling */
+.form {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 110%;
+    max-width: 500px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #333;
+}
+
+.form label strong {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form select,
+.form textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #333;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form select:focus,
+.form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Button Styling */
+.form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+    background-color: #0056b3;
+}
+
