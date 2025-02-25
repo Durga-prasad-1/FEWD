@@ -413,6 +413,9 @@
         </div>
     </section>
 
+
+
+
     
     <section id="contact" class="py-5 bg-dark text-white">
         <div class="container">
@@ -476,7 +479,27 @@
             <p class="mb-0">© 2025 My Portfolio. All Rights Reserved.</p>
         </div>
     </footer>
-
+    
+    <script>
+        // Wait for the document to load
+        document.addEventListener('DOMContentLoaded', function () {
+            // Select the form element
+            const form = document.querySelector('form');
+    
+            // Add a submit event listener to the form
+            form.addEventListener('submit', function (event) {
+                // Prevent the default form submission behavior (page reload)
+                event.preventDefault();
+    
+                // Show the alert with the thank you message
+                alert('Thank you for your feedback!');
+    
+                // Optionally, you can reset the form fields after submission
+                form.reset();
+            });
+        });
+    </script>
+    
     <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
