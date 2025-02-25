@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .bg-gradient-primary {
+            background: linear-gradient(135deg, #673ab7 0%, #2196f3 100%);
+        }
+        .section-title {
+            border-left: 5px solid #673ab7;
+            padding-left: 15px;
+        }
+        .custom-card {
+            transition: transform 0.3s ease;
+        }
+        .custom-card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body class="bg-light">
+
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-primary sticky-top shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <i class="fas fa-code me-2"></i>My Portfolio
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about"><i class="fas fa-user me-1"></i> About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills"><i class="fas fa-code me-1"></i> Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects"><i class="fas fa-project-diagram me-1"></i> Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#achievements"><i class="fas fa-trophy me-1"></i> Achievements</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education"><i class="fas fa-graduation-cap me-1"></i> Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#feedback"><i class="fas fa-comment me-1"></i> Feedback</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact"><i class="fas fa-envelope me-1"></i> Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <section class="py-5 bg-gradient-primary text-white text-center">
+        <div class="container py-5">
+            <h1 class="display-4 fw-bold mb-3">Welcome to My Portfolio</h1>
+            <p class="lead">Passionate Web Developer & Machine Learning Enthusiast</p>
+            <div class="mt-4">
+                <a href="#contact" class="btn btn-light btn-lg me-2 shadow"><i class="fas fa-envelope me-2"></i>Contact Me</a>
+                <a href="#projects" class="btn btn-outline-light btn-lg shadow"><i class="fas fa-project-diagram me-2"></i>View Projects</a>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="about" class="container py-5">
+        <div class="row">
+            <div class="col-lg-12 mb-4">
+                <h2 class="display-6 fw-bold mb-4 section-title"><i class="fas fa-user me-2"></i>About Me</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100 border-0 shadow-sm custom-card">
+                    <div class="card-body text-center p-5">
+                        <div class="display-1 text-primary mb-4">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <h3 class="h4 card-title fw-bold">Who I Am</h3>
+                        <p class="card-text">A passionate web developer with a creative mind and technical skills.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 mb-4">
+                <div class="card h-100 border-0 shadow-sm custom-card">
+                    <div class="card-body p-5">
+                        <h3 class="h4 card-title fw-bold mb-4">My Story</h3>
+                        <p class="card-text">Hello! I'm a passionate web developer with experience in HTML, CSS, JavaScript, and other technologies. I love creating clean, user-friendly websites and applications.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, aspernatur, incidunt placeat quo commodi eum doloremque et illo veritatis eos esse quos sunt, laudantium sapiente nostrum earum ratione necessitatibus architecto!</p>
+                        <div class="d-flex mt-4">
+                            <a href="#contact" class="btn btn-primary me-2"><i class="fas fa-envelope me-2"></i>Get in Touch</a>
+                            <a href="#" class="btn btn-outline-primary"><i class="fas fa-download me-2"></i>Download CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mb-4">
+                    <h2 class="display-6 fw-bold mb-4 section-title"><i class="fas fa-code me-2"></i>Skills</h2>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm h-100 custom-card">
+                        <div class="card-body text-center p-4">
+                            <div class="bg-primary bg-opacity-10 text-primary p-3 rounded-circle d-inline-block mb-3">
+                                <i class="fas fa-laptop-code fa-2x"></i>
+                            </div>
+                            <h4 class="card-title fw-bold">Web Development</h4>
+                            <div class="mt-3">
+                                <span class="badge bg-primary rounded-pill px-3 py-2 m-1">HTML5</span>
+                                <span class="badge bg-primary rounded-pill px-3 py-2 m-1">CSS3</span>
+                                <span class="badge bg-primary rounded-pill px-3 py-2 m-1">JavaScript</span>
+                                <span class="badge bg-primary rounded-pill px-3 py-2 m-1">React</span>
+                                <span class="badge bg-primary rounded-pill px-3 py-2 m-1">Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm h-100 custom-card">
+                        <div class="card-body text-center p-4">
+                            <div class="bg-success bg-opacity-10 text-success p-3 rounded-circle d-inline-block mb-3">
+                                <i class="fas fa-database fa-2x"></i>
+                            </div>
+                            <h4 class="card-title fw-bold">Backend & Database</h4>
+                            <div class="mt-3">
+                                <span class="badge bg-success rounded-pill px-3 py-2 m-1">Node.js</span>
+                                <span class="badge bg-success rounded-pill px-3 py-2 m-1">Express</span>
+                                <span class="badge bg-success rounded-pill px-3 py-2 m-1">MongoDB</span>
+                                <span class="badge bg-success rounded-pill px-3 py-2 m-1">MySQL</span>
+                                <span class="badge bg-success rounded-pill px-3 py-2 m-1">Firebase</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm h-100 custom-card">
+                        <div class="card-body text-center p-4">
+                            <div class="bg-info bg-opacity-10 text-info p-3 rounded-circle d-inline-block mb-3">
+                                <i class="fas fa-brain fa-2x"></i>
+                            </div>
+                            <h4 class="card-title fw-bold">Machine Learning</h4>
+                            <div class="mt-3">
+                                <span class="badge bg-info rounded-pill px-3 py-2 m-1">Python</span>
+                                <span class="badge bg-info rounded-pill px-3 py-2 m-1">TensorFlow</span>
+                                <span class="badge bg-info rounded-pill px-3 py-2 m-1">Scikit-Learn</span>
+                                <span class="badge bg-info rounded-pill px-3 py-2 m-1">Pandas</span>
+                                <span class="badge bg-info rounded-pill px-3 py-2 m-1">NumPy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="projects" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mb-4">
+                    <h2 class="display-6 fw-bold mb-4 section-title"><i class="fas fa-project-diagram me-2"></i>Projects</h2>
+                    <p class="lead">Check out some of my recent work</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 shadow-sm h-100 custom-card">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <span class="bg-primary bg-opacity-10 p-2 rounded me-3">
+                                    <i class="fas fa-globe text-primary"></i>
+                                </span>
+                                <h5 class="card-title fw-bold mb-0">Personal Website</h5>
+                            </div>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aliquam omnis repudiandae, doloremque quidem voluptas.</p>
+                            <div class="mt-3">
+                                <span class="badge bg-light text-dark me-1">HTML</span>
+                                <span class="badge bg-light text-dark me-1">CSS</span>
+                                <span class="badge bg-light text-dark me-1">JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white border-0 p-4 pt-0">
+                            <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt me-2"></i>View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 shadow-sm h-100 custom-card">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <span class="bg-success bg-opacity-10 p-2 rounded me-3">
+                                    <i class="fas fa-tasks text-success"></i>
+                                </span>
+                                <h5 class="card-title fw-bold mb-0">To-Do List App</h5>
+                            </div>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quia iste magnam nisi. Excepturi veniam quas error.</p>
+                            <div class="mt-3">
+                                <span class="badge bg-light text-dark me-1">React</span>
+                                <span class="badge bg-light text-dark me-1">Firebase</span>
+                                <span class="badge bg-light text-dark me-1">Bootstrap</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white border-0 p-4 pt-0">
+                            <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt me-2"></i>View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 shadow-sm h-100 custom-card">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <span class="bg-info bg-opacity-10 p-2 rounded me-3">
+                                    <i class="fas fa-seedling text-info"></i>
+                                </span>
+                                <h5 class="card-title fw-bold mb-0">Crop Disease Detection</h5>
+                            </div>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae explicabo dolore rerum fugit incidunt sequi fuga.</p>
+                            <div class="mt-3">
+                                <span class="badge bg-light text-dark me-1">Python</span>
+                                <span class="badge bg-light text-dark me-1">TensorFlow</span>
+                                <span class="badge bg-light text-dark me-1">Flask</span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white border-0 p-4 pt-0">
+                            <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt me-2"></i>View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    
+<section id="achievements" class="py-5 bg-gradient-primary text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 mb-4">
+                <h2 class="display-6 fw-bold mb-4"><i class="fas fa-trophy me-2"></i>Achievements</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="achievementsCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#achievementsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Achievement 1"></button>
+                        <button type="button" data-bs-target="#achievementsCarousel" data-bs-slide-to="1" aria-label="Achievement 2"></button>
+                        <button type="button" data-bs-target="#achievementsCarousel" data-bs-slide-to="2" aria-label="Achievement 3"></button>
+                    </div>
+                    <div class="carousel-inner rounded shadow">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <div class="bg-white bg-opacity-10 p-5 text-center">
+                                <div class="display-1 mb-3 text-warning">
+                                    <i class="fas fa-award"></i>
+                                </div>
+                                <h3 class="fw-bold">Hackathon Winner</h3>
+                                <p class="lead mb-0">Won first place in a national-level hackathon for developing an innovative web application.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <div class="bg-white bg-opacity-10 p-5 text-center">
+                                <div class="display-1 mb-3 text-warning">
+                                    <i class="fas fa-code-branch"></i>
+                                </div>
+                                <h3 class="fw-bold">Open Source Contributor</h3>
+                                <p class="lead mb-0">Contributed to several open-source projects, including React and Bootstrap.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <div class="bg-white bg-opacity-10 p-5 text-center">
+                                <div class="display-1 mb-3 text-warning">
+                                    <i class="fas fa-certificate"></i>
+                                </div>
+                                <h3 class="fw-bold">Certified Developer</h3>
+                                <p class="lead mb-0">Completed certifications in Full-Stack Development and Machine Learning.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#achievementsCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#achievementsCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+    <section id="education" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mb-4">
+                    <h2 class="display-6 fw-bold mb-4 section-title"><i class="fas fa-graduation-cap me-2"></i>Education</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card border-0 shadow-sm custom-card">
+                        <div class="card-body p-4">
+                            <div class="table-responsive">
+                                <table class="table table-hover">
+                                    <thead class="table-light">
+                                        <tr>
+                                            <th scope="col" class="rounded-start">Qualification</th>
+                                            <th scope="col">Institute</th>
+                                            <th scope="col">Duration</th>
+                                            <th scope="col" class="rounded-end">Grade</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <span class="bg-primary bg-opacity-10 p-2 rounded me-3">
+                                                        <i class="fas fa-school text-primary"></i>
+                                                    </span>
+                                                    <span>10th</span>
+                                                </div>
+                                            </td>
+                                            <td>TS Model School</td>
+                                            <td>2012-2013</td>
+                                            <td><span class="badge bg-success">9 GPA</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <span class="bg-primary bg-opacity-10 p-2 rounded me-3">
+                                                        <i class="fas fa-school text-primary"></i>
+                                                    </span>
+                                                    <span>Intermediate</span>
+                                                </div>
+                                            </td>
+                                            <td>Sri Chaithanya Junior College</td>
+                                            <td>2013-2015</td>
+                                            <td><span class="badge bg-success">96%</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <span class="bg-primary bg-opacity-10 p-2 rounded me-3">
+                                                        <i class="fas fa-university text-primary"></i>
+                                                    </span>
+                                                    <span>B.Tech</span>
+                                                </div>
+                                            </td>
+                                            <td>KMIT</td>
+                                            <td>2015-2019</td>
+                                            <td><span class="badge bg-success">8.5 CGPA</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="feedback" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mb-4">
+                    <h2 class="display-6 fw-bold mb-4 section-title"><i class="fas fa-comment me-2"></i>Feedback</h2>
+                    <p class="lead">Feel free to share your thoughts on my portfolio!</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card border-0 shadow-sm custom-card">
+                        <div class="card-body p-5">
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-floating mb-3">
+                                            <input type="text" class="form-control" id="userName" placeholder="Enter your name" required>
+                                            <label for="userName">Your Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating mb-3">
+                                            <input type="email" class="form-control" id="userEmail" placeholder="Enter your email" required>
+                                            <label for="userEmail">Email Address</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating mb-3">
+                                            <textarea class="form-control" id="userFeedback" rows="5" style="height: 150px" placeholder="Share your thoughts..." required></textarea>
+                                            <label for="userFeedback">Feedback</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 text-center">
+                                        <button type="submit" class="btn btn-primary btn-lg px-5"><i class="fas fa-paper-plane me-2"></i> Submit Feedback</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contact" class="py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mb-4 text-center">
+                    <h2 class="display-6 fw-bold mb-4"><i class="fas fa-envelope me-2"></i>Contact Me</h2>
+                    <p class="lead">Let's get in touch and talk about your next project</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card bg-dark bg-opacity-50 border-0 h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="rounded-circle bg-primary d-inline-flex justify-content-center align-items-center mb-4" style="width: 80px; height: 80px;">
+                                <i class="fas fa-envelope fa-2x text-white"></i>
+                            </div>
+                            <h4 class="card-title fw-bold">Email</h4>
+                            <p class="card-text">xyz@gmail.com</p>
+                            <a href="mailto:xyz@gmail.com" class="btn btn-outline-light mt-3">Send Email</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card bg-dark bg-opacity-50 border-0 h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="rounded-circle bg-primary d-inline-flex justify-content-center align-items-center mb-4" style="width: 80px; height: 80px;">
+                                <i class="fas fa-phone fa-2x text-white"></i>
+                            </div>
+                            <h4 class="card-title fw-bold">Phone</h4>
+                            <p class="card-text">+91 9876543210</p>
+                            <a href="tel:+919876543210" class="btn btn-outline-light mt-3">Call Me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <h3 class="h4 mb-4">Connect with me on social media</h3>
+                    <div class="d-flex justify-content-center gap-3">
+                        <a href="#" class="btn btn-light btn-lg rounded-circle">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="btn btn-light btn-lg rounded-circle">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="btn btn-light btn-lg rounded-circle">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="btn btn-light btn-lg rounded-circle">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+    <footer class="py-4 bg-gradient-primary text-white text-center">
+        <div class="container">
+            <p class="mb-0">© 2025 My Portfolio. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
