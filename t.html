@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Addition and Subtraction</title>
+</head>
+<body>
+  <h1>Simple Calculator</h1>
+  
+  <!-- Display the current value -->
+  <p>Current Value: <span id="result">0</span></p>
+
+  <!-- Input fields for adding and subtracting -->
+  <input type="number" id="numberInput" value="0" />
+
+  <!-- Buttons to perform addition and subtraction -->
+  <button onclick="addValue()">Add</button>
+  <button onclick="subtractValue()">Subtract</button>
+
+  <script>
+    // Initialize the current value
+    let currentValue = 0;
+
+    // Function to handle the addition
+    function addValue() {
+      const numberToAdd = parseInt(document.getElementById('numberInput').value, 10);
+      currentValue += numberToAdd;
+      document.getElementById('result').textContent = currentValue;
+    }
+
+    // Function to handle the subtraction
+    function subtractValue() {
+      const numberToSubtract = parseInt(document.getElementById('numberInput').value, 10);
+      currentValue -= numberToSubtract;
+      document.getElementById('result').textContent = currentValue;
+    }
+  </script>
+</body>
+</html>
